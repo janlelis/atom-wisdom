@@ -1,0 +1,22 @@
+{
+  "name": "atom-wisdom",
+  "main": "./lib/main",
+  "version": "0.0.2",
+  "description": "WisdomComplete for ATOM",
+  "keywords": ["autocomplete", "widom"],
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": "https://github.com/janlelis/atom-wisdom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
